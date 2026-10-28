@@ -1,0 +1,9 @@
+<Files "db_connect.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "send_email.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
