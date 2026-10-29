@@ -1,5 +1,4 @@
 -- Harayo Bhetiyo Database
--- Run this in phpMyAdmin
 
 CREATE DATABASE IF NOT EXISTS harayo_bhetiyo;
 USE harayo_bhetiyo;
@@ -51,6 +50,6 @@ CREATE TABLE claims (
 );
 
 -- Default admin account
--- Password is: admin123
+-- Password: chisuadmin123
 INSERT INTO users (name, email, password, phone, role, is_verified)
-VALUES ('Admin', 'admin@harayobhetiyo.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '9800000000', 'admin', 1);
+VALUES ('Admin', 'admin@harayobhetiyo.com', '$2y$10$..Vf1Y.45dO11cwuEnaiFuIoGpfflpPD870py1c8p45UG4uQARAfq', '9800000000', 'admin', 1);
